@@ -1,0 +1,13 @@
+[project]
+name = "inventory2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openpyxl>=3.1.5",
+    "pandas>=2.0.0",
+    "requests>=2.31.0",
+    "streamlit>=1.28.0",
+]
