@@ -16,14 +16,14 @@ load_dotenv()
 # ================================
 
 # Password untuk mengakses aplikasi
-APP_PASSWORD = os.getenv("APP_PASSWORD")  # Ganti dengan password yang diinginkan
+APP_PASSWORD = st.secrets["APP_PASSWORD"]  # Ganti dengan password yang diinginkan
 
 # File untuk menyimpan data
-DATA_FILE = os.getenv("DATA_FILE")
-BACKUP_FILE = os.getenv("BACKUP_FILE")
+DATA_FILE = st.secrets["DATA_FILE"]
+BACKUP_FILE = st.secrets["BACKUP_FILE"]
 
 # Google Sheets URL untuk sync (optional)
-GOOGLE_SHEET_URL = os.getenv("GOOGLE_SHEET_URL")  # Ganti dengan URL sheet Anda
+GOOGLE_SHEET_URL = st.secrets["GOOGLE_SHEET_URL"]  # Ganti dengan URL sheet Anda
 
 # ================================
 # FUNGSI AUTHENTICATION
